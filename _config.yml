@@ -1,3 +1,10 @@
+name: I Am the Science Department
+markdown: redcarpet
+pygments: true
+authors:
+  ruthhutson:
+    display_name: Ruth Hutson
+    github: ruthhutson
 timezone: America/Chicago
 future: false
 lsi: false
