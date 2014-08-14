@@ -1,3 +1,7 @@
+---
+layout: post
+title: This is a first test!
+---
 This is a first test!
 =====================
 
