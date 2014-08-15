@@ -3,14 +3,6 @@ layout: default
 title: I Am the Science Department
 ---
 
-<div id="home">
-  <h1>Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
 
 
 
@@ -37,25 +29,18 @@ title: I Am the Science Department
  service, or   application.</h4>
 	  <div class="header_list">
 	  <div class="header_block_panel">
-	  <div class="header_block_left"> <ul>
-<li><a href="#">Lorem Ipsum has been the  </a></li>
-<li><a href="#">Standard dummy text ever</a></li>
-<li><a href="#">Make a type specimen book</a></li>
+	  <div class="header_block_left">
+  <h1>Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
 
-
-</ul>	
 
   
 </div>
-<div class="header_block_right"> <ul>
-<li><a href="#">Standard dummy text ever</a></li>
-<li><a href="#">Make a type specimen book</a></li>
-<li><a href="#">It has survived not only five</a></li>
-
-
-</ul>	
-
-  
+<div class="header_block_right">
 </div>
 	      <div class="clear"></div>
 	  </div>
@@ -70,13 +55,19 @@ title: I Am the Science Department
   <div class="mid_main_left">
   <div class="mid_details">
   	 
-  <h2>Welcome to our web site </h2>
+  <h2>Welcome to IAmTheScienceDepartment.com</h2>
   
   <img src="images/border_line.gif" alt="" />
-  <h4>Lorem ipsum dolor sit amet</h4>
-  <p>sed diamaccusantium doloremque laudantium, totam rem aperiam eaquep. <br />
-    Store veritatis et quasi architecto <a href="#">beatae vitae dicta sunt, explicabo nemo</a> enim ipsam voluptatem quia voluptas sit, aspernatur aut odit aut fugit. <br />    Duis autem vel eum iriure dolor in hendrerit in vvdolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit.</p>
-  </div>
+  <p>
+  
+  <h4>Purpose</h4>
+  <p>This site exists to help science teachers in small schools to effectively teach many subjects. Small schools face challenges that larger schools cannot</p>
+  <h4>About the Author</h4>
+  <p>Ruth is "the science department" for <a href="http://www.usd384.org/">Blue Valley High School in Randolph, KS</a>. Every year she teaches Earth Science, Biology, Chemistry, Anatomy, and Physics. Other subjects she has taught at this small school include AP Biology, Applied Statistics and Applied Science, and Genetics. She is actively involved in the <a href="http://www.nsta.org/">National Science Teachers Association</a>, and was a state nominee for the <a href="https://www.paemst.org/">Presidential Awards for Excellence in Mathematics and Science Teaching</a> in 2013.
+</div>
+
+
+</div>
   
   </div>
   
@@ -96,10 +87,11 @@ title: I Am the Science Department
   <div class="first_box_bottom">
   <div class="firt_box_details">
 <img src="images/bullet.gif" alt="" style="float:left; margin:8px 10px 0px 0px;" />
-  <h2>Science</h2>
+<!--  <h2>Science</h2>
   <h4>Lorem ipsum dolor sit </h4>
   <p>sed diamaccusantium doloremque laudantium, totam rem aperiam eaquep. Store veritatis et quasi architecto <a href="#">beatae vitae dicta sunt, explicabo nemo</a> enim ipsam voluptatem, quia voluptas sit.</p>
   
+-->
   <a href="#"><img src="images/read_more.gif" alt="" border="0" style="margin:10px 0px 0px 0px;" /></a> </div>
 </div>
   
